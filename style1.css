@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face{ 
+font-family: 'Lato', sans-serif;
+
+/*
+	font-family: 'MyWebFont';
+	src: url('futuraFont/WebFont.eot');
+	src: url('futuraFont/WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('futuraFont/WebFont.woff') format('woff'),
+	     url('futuraFont/WebFont.ttf') format('truetype'),
+	     url('futuraFont/WebFont.svg#webfont') format('svg');
+		 */
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.tiltedDiv {
+	background-color: plum;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+
+#letterformFree {
+	position: absolute;
+	height: 66.66%;
+	width: 50%;
+	top: 30px;
+	left: 0px;
+	color: white;
+	font-size: 700px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	vertical-align: middle;
+	/*font-family: 'WebFont', Arial, sans-serif;*/
+	color: #66ffcc;
+}
+
+html {
+	width: 768px;
+	min-width: 768px;
+	max-width: 768px;
+	height: 1024px;	
+}
+
+body {
+	color: #66ffcc;
+	/*font-family: 'WebFont', Arial, sans-serif;*/
+	/*background-color: navy;*/
+	background-color: #F2C9F4;
+	height: 1024px;
+	width: 768px;
+	margin: 0px 64px 0px 64px;
+	float: left;
+}
+
+/*
+.oneThird {
+	height: 341px;
+	width: 640px;	
+}
+*/
+
+.topMain {
+	height: 240px;
+	width: 640px;	
+}
+
+.secondMain {
+	height: 400px;
+	width: 640px;	
+}
+
+.thirdMain {
+	height: 400px;
+	width: 640px;	
+}
+
+
+.rightThird {
+	height: 341px;
+	width: 213px;
+	float: right;
+}
+
+.alphabet {
+	font-size: 70px;
+	height: 240px;
+	margin: 0px 0px 0px 0px;
+	display:table-cell; 
+	vertical-align:middle;
+	color: #00ffcc;
+}
+
+.narrativeOne {
+	font-size: 16px;
+	height: 600px;
+	margin: 0px 0px 0px 0px;
+	display:table-cell; 
+	vertical-align: top;
+	color: #00ffcc;
+}
+
+/*
+line-height
+*/
