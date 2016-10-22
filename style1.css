@@ -39,9 +39,7 @@ font-family: 'Lato', sans-serif;
 
 #letterformFree {
 	position: absolute;
-	height: 66.66%;
-	width: 50%;
-	top: 30px;
+	top: 0px;
 	left: 0px;
 	color: white;
 	font-size: 700px;
